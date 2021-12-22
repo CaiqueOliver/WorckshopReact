@@ -14,10 +14,10 @@ function Slider() {
           slidesPerView: 1,
         },
         767: {
-          slidesPerView: 2,
+          slidesPerView: 3,
         },
         1024: {
-          sliderPerView: 4,
+          slidesPerView: 4,
         },
       }}
     >

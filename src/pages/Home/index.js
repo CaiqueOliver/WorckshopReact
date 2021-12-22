@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./style.scss";
-import imageDestack from "../images/imagem-destaque.png";
-import Pills from "../components/Pills";
+import imageDestack from "../../images/imagem-destaque.png";
+import Pills from "../../components/Pills";
 
 const PLACES = ["Praça", "Parque", "Igreja", "Hotel", "Restaurante"];
 
@@ -33,7 +33,11 @@ const Home = () => {
           ))}
         </div>
       </div>
-      <div className="home__col"></div>
+      <div className="home__col">
+        <div className="home__image home__image--destack hide-mobile">
+          <img src={imageDestack} alt="Imagem destaque cadeirante" />
+        </div>
+      </div>
     </main>
   );
 };
