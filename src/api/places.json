@@ -1,0 +1,104 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "Praça dos Poetas",
+      "image": "/places/adp.png",
+      "link": "https://www.google.com.br/maps/@-13.8721973,-40.0744715,17.75z",
+      "category": "Praça",
+      "description": "Praça de lazer para reunir com a família",
+      "facilities": [
+        { "item": 1, "status": true },
+        { "item": 2, "status": true },
+        { "item": 3, "status": true },
+        { "item": 4, "status": true },
+        { "item": 5, "status": true },
+        { "item": 6, "status": true },
+        { "item": 7, "status": true },
+        { "item": 8, "status": true },
+        { "item": 9, "status": true },
+        { "item": 10, "status": true }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Praça da Bíblia",
+      "image": "/places/bible.jpg",
+      "link": "https://www.google.com.br/maps/@-13.8678911,-40.0763223,18z",
+      "category": "Praça",
+      "description": "Praça de lazer para brincar com seu filho",
+      "facilities": [
+        { "item": 1, "status": true },
+        { "item": 2, "status": true },
+        { "item": 3, "status": true },
+        { "item": 4, "status": true },
+        { "item": 5, "status": true },
+        { "item": 6, "status": true },
+        { "item": 7, "status": true },
+        { "item": 8, "status": true },
+        { "item": 9, "status": true },
+        { "item": 10, "status": true }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Igreja da Matriz",
+      "image": "/places/igreja.jpg",
+      "link": "https://www.google.com.br/maps/place/Catedral+Santo+Antônio+de+Pádua/@-13.8585523,-40.0832538,18z/data=!4m5!3m4!1s0x740af5d55369491:0xc0e0e87ed6b0ff41!8m2!3d-13.8572819!4d-40.0836925",
+      "category": "Igreja",
+      "description": "Uma das igrejas mais bonitas do sudoeste Baiano",
+      "facilities": [
+        { "item": 1, "status": true },
+        { "item": 2, "status": true },
+        { "item": 3, "status": false },
+        { "item": 4, "status": true },
+        { "item": 5, "status": true },
+        { "item": 6, "status": false },
+        { "item": 7, "status": true },
+        { "item": 8, "status": true },
+        { "item": 9, "status": false },
+        { "item": 10, "status": true }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Praça Ruy Barbosa",
+      "image": "/places/Praça.jpg",
+      "link": "https://www.google.com.br/maps/@-13.8598439,-40.0832109,18z",
+      "category": "Praça",
+      "description": "Local de reunião e eventos da cidade",
+      "facilities": [
+        { "item": 1, "status": true },
+        { "item": 2, "status": true },
+        { "item": 3, "status": true },
+        { "item": 4, "status": true },
+        { "item": 5, "status": false },
+        { "item": 6, "status": true },
+        { "item": 7, "status": true },
+        { "item": 8, "status": true },
+        { "item": 9, "status": false },
+        { "item": 10, "status": true }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Barragem das Pedras",
+      "image": "/places/barragem.jpg",
+      "link": "https://www.google.com.br/maps/@-13.867569,-40.236915,15z",
+      "category": "Parque",
+      "description": "Barragem que abastece boa parte das cidades vizinhas",
+      "facilities": [
+        { "item": 1, "status": true },
+        { "item": 2, "status": false },
+        { "item": 3, "status": true },
+        { "item": 4, "status": true },
+        { "item": 5, "status": true },
+        { "item": 6, "status": true },
+        { "item": 7, "status": false },
+        { "item": 8, "status": true },
+        { "item": 9, "status": true },
+        { "item": 10, "status": false }
+      ]
+    }
+  ]
+}

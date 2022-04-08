@@ -4,14 +4,35 @@ import {
   Route,
 } from "react-router-dom";
 import Home from "../pages/Home";
+import { LocationContext } from "../contexts/LocationContext";
+import { FilterContext } from "../contexts/FilterContext";
+import { Fragment, useState } from "react";
+import Header from "../components/Header";
+import CuratorItem from "../components/Curator";
+import Places from "../components/Places";
 
-const Routes = () => {
+const Routes = (props) => {
+  const [city, setCity] = useState("");
+  const [state, setState] = useState("");
+  const [filteredPlace, setFilteredPlace] = useState("");
   return (
-    <Router>
-      <Switch>
-        <Route path="/:state/:city" element={<Home />} />
-      </Switch>
-    </Router>
+    <FilterContext.Provider value={{ filteredPlace, setFilteredPlace }}>
+      <LocationContext.Provider value={{ city, setCity, state, setState }}>
+        <Header />
+        <Switch>
+          <Route
+            path="/:state/:city"
+            element={
+              <Fragment>
+                <Home />
+                <Places />
+                <CuratorItem />
+              </Fragment>
+            }
+          />
+        </Switch>
+      </LocationContext.Provider>
+    </FilterContext.Provider>
   );
 };
 
