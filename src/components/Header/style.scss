@@ -49,5 +49,16 @@
     &__span {
       margin-bottom: 1rem;
     }
+    &button {
+      border: 1px solid #02939c;
+      padding-left: 20px;
+      box-sizing: border-box;
+      border-radius: 0.5rem;
+      background-color: var(--green);
+      cursor: pointer;
+      color: var(--white);
+      padding: 0.7rem 1rem;
+      font-size: 1.4rem;
+    }
   }
 }
